@@ -1,0 +1,5 @@
+cp -r .vim ~
+mkdir -p ~/.vim/backup ~/.vim/tmp
+cp .vimrc ~
+cp .zshrc ~
+cp mselnraveler.zsh-theme ~/.oh-my-zsh/themes

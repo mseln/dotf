@@ -17,7 +17,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(git)
 
 # User configuration
-  export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -25,5 +25,5 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-source /opt/ros/kinetic/setup.zsh
-source ~/catkin_ws/devel/setup.zsh
+# source /opt/ros/kinetic/setup.zsh
+# source ~/catkin_ws/devel/setup.zsh
