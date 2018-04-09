@@ -1,7 +1,7 @@
 ## Welcome to mseln's Setup pages!
 
 
-#### Setup zsh and oh-my-zsh
+#### zsh and oh-my-zsh
 
 
 ```
@@ -12,7 +12,7 @@ cp mselnraveler.zsh-theme ~/.oh-my-zsh/themes
 cp -r mseln-mode ~/.oh-my-zsh/plugins
 ```
 
-#### Setup vim
+#### vim
 
 ```
 # Set up vim
