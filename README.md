@@ -1,7 +1,7 @@
-##Welcome to mseln's Setup pages!
+## Welcome to mseln's Setup pages!
 
 
-####Setup zsh and oh-my-zsh
+#### Setup zsh and oh-my-zsh
 
 
 ```
