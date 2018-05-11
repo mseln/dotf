@@ -1,5 +1,11 @@
 ## Welcome to mseln's Setup pages!
 
+#### install stuff
+
+sudo apt install vim-gnome
+sudo apt install i3
+
+
 
 #### zsh and oh-my-zsh
 
