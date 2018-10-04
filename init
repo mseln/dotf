@@ -6,8 +6,7 @@ mkdir -p ~/.build
 sudo apt-get update
 
 # install packages
-sudo apt-get install vim-gnome
-sudo apt-get install zsh
+sudo apt-get install vim-gnome zsh tree
 
 # setup i3-gaps
 # sh install-i3-gaps
