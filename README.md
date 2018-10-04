@@ -38,3 +38,6 @@ cp -r i3/config ~/.i3
 cp Xmodmap ~/.Xmodmap
 echo '\n# Map capslock to mod\nxmodmap ~/.Xmodmap' >> ~/.profile
 ```
+
+#### i3 gaps?
+https://github.com/Airblader/i3/
