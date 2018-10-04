@@ -19,6 +19,7 @@ sudo apt-get install libxcb-xrm-dev
 # clone the repository
 git clone https://www.github.com/Airblader/i3 i3-gaps
 cd i3-gaps
+git checkout gaps
 
 # compile & install
 autoreconf --force --install

@@ -5,7 +5,7 @@ mkdir -p ~/.build
 
 # Install packages
 sudo apt-get update
-sudo apt-get install vim-gnome zsh tree
+sudo apt-get install vim-gnome zsh tree curl
 
 # Setup oh-my-zsh
 sh install/install-oh-my-zsh
