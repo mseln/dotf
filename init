@@ -1,5 +1,24 @@
-cp -r .vim ~
-mkdir -p ~/.vim/backup ~/.vim/tmp
-cp .vimrc ~
-cp .zshrc ~
-cp mselnraveler.zsh-theme ~/.oh-my-zsh/themes
+#!/bin/bash
+
+# Setup build folder
+mkdir -p ~/.build
+
+sudo apt-get update
+
+# install packages
+sudo apt-get install vim-gnome
+sudo apt-get install zsh
+
+# setup i3-gaps
+# sh install-i3-gaps
+cp -r config/i3 ~/.config
+
+# Setuo vim
+mkdir -p ~/.vim/{backup,colors,tmp}
+cp themes/redish.vim ~/.vim/colors
+cp config/vimrc ~/.vimrc
+
+# Setup zsh
+cp config/zshrc ~/.zshrc
+cp themes/mselnraveler-red.zsh-theme ~/.oh-my-zsh/themes
+cp -r mseln-mode ~/.oh-my-zsh/plugins

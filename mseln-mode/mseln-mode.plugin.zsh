@@ -37,8 +37,8 @@ bindkey '^e' end-of-line
 
 # jkl; bindings
 bindkey -M viins 'kk' vi-cmd-mode
-bindkey -M viins 'ff' accept-line
-bindkey -M vicmd 'ff' accept-line
+# bindkey -M viins 'ff' accept-line
+# bindkey -M vicmd 'ff' accept-line
 bindkey -M vicmd 'j' backward-char
 bindkey -M viins -M vicmd "k" down-line-or-beginning-search
 bindkey -M viins -M vicmd "l" up-line-or-beginning-search

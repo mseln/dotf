@@ -5,7 +5,7 @@ export ZSH=/home/mseln/.oh-my-zsh
 export KEYTIMEOUT=20
 
 # Set name of the theme to load.
-ZSH_THEME="mselnraveler"
+ZSH_THEME="mselnraveler-red"
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
