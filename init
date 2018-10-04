@@ -3,13 +3,20 @@
 # Setup build folder
 mkdir -p ~/.build
 
+# Install packages
 sudo apt-get update
-
-# install packages
 sudo apt-get install vim-gnome zsh tree
 
-# setup i3-gaps
-sh install-i3-gaps
+# Setup oh-my-zsh
+sh install/install-oh-my-zsh
+chsh -s $(which zsh)
+
+cp config/zshrc ~/.zshrc
+cp themes/mselnraveler-red.zsh-theme ~/.oh-my-zsh/themes
+cp -r mseln-mode ~/.oh-my-zsh/plugins
+
+# Setup i3-gaps
+sh install/install-i3-gaps
 cp -r config/i3 ~/.config
 
 # Setuo vim
@@ -17,7 +24,3 @@ mkdir -p ~/.vim/{backup,colors,tmp}
 cp themes/redish.vim ~/.vim/colors
 cp config/vimrc ~/.vimrc
 
-# Setup zsh
-cp config/zshrc ~/.zshrc
-cp themes/mselnraveler-red.zsh-theme ~/.oh-my-zsh/themes
-cp -r mseln-mode ~/.oh-my-zsh/plugins
