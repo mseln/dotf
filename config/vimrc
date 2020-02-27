@@ -62,7 +62,7 @@ function ToggleWrap()
   endif
 endfunction
 
-noremap ö l
+noremap ; l
 noremap l k
 noremap k j
 noremap j h

@@ -19,6 +19,8 @@ cp -r mseln-mode ~/.oh-my-zsh/plugins
 sh install/install-i3-gaps
 cp -r config/i3 ~/.config
 
+sudo apt-get install dmenu i3status
+
 # Setuo vim
 mkdir -p ~/.vim/{backup,colors,tmp}
 cp themes/redish.vim ~/.vim/colors
